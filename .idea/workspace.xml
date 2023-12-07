@@ -6,95 +6,14 @@
       <artifact name="ShopSon:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03463e4f-0c01-40ab-a605-6f6ee9d2bfc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/basic_table.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blank.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/buttons.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/calendar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/chartjs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/form_component.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/gallery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/general.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/lock_screen.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/morris.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/panels.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/responsive_table.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/todo_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/cart-order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/add-product-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/cart-order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style_admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/table-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/to-do.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/zabuto_calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/blog-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/checkbox-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/instagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/lorde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/profile-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/profile-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/radio-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-danro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-divya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-sam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-sherman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-zac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/weather.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/calendar-conf-events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/chartjs-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/common-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/form-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/morris-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/sparkline-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/tasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/zabuto_calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/add-product-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/contact.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/product-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop-cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/shop-cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/shop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2023_8_27_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2023_8_27_AM_[Changes]1/shelved.patch" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,79 +21,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/vendor/add-product-form.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/vendor/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/staticfiles/css/zabuto_calendar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/customer/main.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/general.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/gallery.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/lock_screen.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -247,6 +93,7 @@
     <option name="width" value="1440" />
     <option name="height" value="875" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -344,18 +191,11 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/vendor" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/vendor" />
@@ -369,18 +209,6 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/staticfiles/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -529,8 +357,16 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
