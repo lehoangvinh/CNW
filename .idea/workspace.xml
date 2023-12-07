@@ -6,152 +6,8 @@
       <artifact name="ShopSon:war exploded" />
     </artifacts-to-build>
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15967f46-8292-4ca9-b950-12a963d95977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/java/com/example/shopson/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/shop-cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/elegant-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/slicknav.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/ElegantIcons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/ElegantIcons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/ElegantIcons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/banner/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/banner/banner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/banner/banner-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/blog-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/details/blog-details.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/details/comment-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/details/comment-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/details/comment-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/sidebar/fp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/sidebar/fp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/blog/sidebar/fp-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/categories/category-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/categories/category-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/categories/category-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/categories/category-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/categories/category-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/discount.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/instagram/insta-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/instagram/insta-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/instagram/insta-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/instagram/insta-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/instagram/insta-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/instagram/insta-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/payment/payment-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/payment/payment-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/payment/payment-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/payment/payment-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/payment/payment-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/product-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/product-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/product-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/product-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/details/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/product-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/related/rp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/related/rp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/related/rp-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/product/related/rp-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop-cart/cp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop-cart/cp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop-cart/cp-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop-cart/cp-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/shop/shop-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/bs-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/bs-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/bs-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/f-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/f-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/f-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/ht-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/ht-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/img/trend/ht-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/jquery.countdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/jquery.nicescroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/jquery.slicknav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/mixitup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_blog-details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_blog-sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_checkout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_home-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_product-details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_product.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_shop-cart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_shop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/_variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/src/main/webapp/staticfiles/sass/style.scss" afterDir="false" />
+    <list default="true" id="03463e4f-0c01-40ab-a605-6f6ee9d2bfc9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/basic_table.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/blank.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/buttons.jsp" afterDir="false" />
@@ -166,16 +22,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/panels.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/responsive_table.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/todo_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog-details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/cart-order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/contact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/product-details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/shop-cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/shop.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/add-product-form.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/cart-order.css" afterDir="false" />
@@ -186,28 +33,11 @@
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/zabuto_calendar.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/blog-bg.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/checkbox-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-11.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/instagram.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/login-bg.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/lorde.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/mask.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port06.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/product.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/product.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/profile-01.jpg" afterDir="false" />
@@ -220,29 +50,14 @@
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-zac.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/weather.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap-switch.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/calendar-conf-events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/chart-master/Chart.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/chartjs-conf.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/common-scripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fancybox/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fancybox/jquery.fancybox.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/form-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fullcalendar/fullcalendar.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/css/jquery.gritter0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/gritter-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/gritter-long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/ie-spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/js/jquery.gritter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.backstretch.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
@@ -258,24 +73,28 @@
       <change afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/zabuto_calendar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/add-product-form.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/blog-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/blog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/contact.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/index2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/product-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/main/webapp/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog-details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/contact.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/product-details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop-cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/shop-cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/shop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui.min.js" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,6 +102,79 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/vendor/add-product-form.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/vendor/index.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/staticfiles/css/zabuto_calendar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-148">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/customer/main.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/general.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/gallery.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/lock_screen.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -355,7 +247,6 @@
     <option name="width" value="1440" />
     <option name="height" value="875" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -478,6 +369,18 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/staticfiles/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -626,16 +529,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
