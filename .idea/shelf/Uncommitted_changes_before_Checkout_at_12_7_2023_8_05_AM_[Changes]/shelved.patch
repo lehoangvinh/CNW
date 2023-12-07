@@ -1,0 +1,33 @@
+diff --git a/.idea/.gitignore b/bin/.idea/.gitignore
+rename from .idea/.gitignore
+rename to bin/.idea/.gitignore
+diff --git a/.idea/google-java-format.xml b/bin/.idea/google-java-format.xml
+rename from .idea/google-java-format.xml
+rename to bin/.idea/google-java-format.xml
+diff --git a/src/main/webapp/checkout.jsp b/bin/src/main/webapp/checkout.jsp
+rename from src/main/webapp/checkout.jsp
+rename to bin/src/main/webapp/checkout.jsp
+diff --git a/src/main/webapp/contact.jsp b/bin/src/main/webapp/contact.jsp
+rename from src/main/webapp/contact.jsp
+rename to bin/src/main/webapp/contact.jsp
+diff --git a/src/main/webapp/blog-details.jsp b/bin/src/main/webapp/blog-details.jsp
+rename from src/main/webapp/blog-details.jsp
+rename to bin/src/main/webapp/blog-details.jsp
+diff --git a/src/main/webapp/blog.jsp b/bin/src/main/webapp/blog.jsp
+rename from src/main/webapp/blog.jsp
+rename to bin/src/main/webapp/blog.jsp
+diff --git a/src/main/webapp/main.jsp b/bin/src/main/webapp/main.jsp
+rename from src/main/webapp/main.jsp
+rename to bin/src/main/webapp/main.jsp
+diff --git a/src/main/webapp/product-details.jsp b/bin/src/main/webapp/product-details.jsp
+rename from src/main/webapp/product-details.jsp
+rename to bin/src/main/webapp/product-details.jsp
+diff --git a/src/main/webapp/index.jsp b/bin/src/main/webapp/index.jsp
+rename from src/main/webapp/index.jsp
+rename to bin/src/main/webapp/index.jsp
+diff --git a/src/main/webapp/index2.jsp b/bin/src/main/webapp/index2.jsp
+rename from src/main/webapp/index2.jsp
+rename to bin/src/main/webapp/index2.jsp
+diff --git a/src/main/webapp/shop.jsp b/bin/src/main/webapp/shop.jsp
+rename from src/main/webapp/shop.jsp
+rename to bin/src/main/webapp/shop.jsp
