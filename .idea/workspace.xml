@@ -10,19 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03463e4f-0c01-40ab-a605-6f6ee9d2bfc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8250a6f0-db89-4973-9b59-bee12546037c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8250a6f0-db89-4973-9b59-bee12546037c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/blog-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/blog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/cart-order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/cart-order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/contact.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/product-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer/product-details.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="03463e4f-0c01-40ab-a605-6f6ee9d2bfc9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -353,7 +341,7 @@
       <workItem from="1701788218980" duration="4648000" />
       <workItem from="1701872194678" duration="3845000" />
       <workItem from="1701877545131" duration="246000" />
-      <workItem from="1701949357137" duration="619000" />
+      <workItem from="1701949357137" duration="1071000" />
     </task>
     <servers />
   </component>
