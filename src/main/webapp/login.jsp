@@ -7,7 +7,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - Bootstrap Admin Template</title>
+    <title>Login Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="staticfiles/css/bootstrap.min.css" rel="stylesheet">
