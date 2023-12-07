@@ -8,7 +8,7 @@ import java.util.List;
 public class ProductBO {
     ProductDAO productDAO = new ProductDAO();
 
-    public boolean addProduct(String name, int price, String description, int vendor_id, String image, int  category_id) {
+    public boolean addProduct(String name, float price, String description, int vendor_id, String image, int  category_id) {
         return productDAO.addProduct(new Product(name, price, description, vendor_id, image, category_id));
     }
 

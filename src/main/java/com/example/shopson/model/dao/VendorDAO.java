@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VendorDAO {
-    private String GET_ALL_VENDORS = "SELECT * FROM vendors";
-    private String GET_VENDOR_BY_ID = "SELECT * FROM vendors WHERE user_id = ?";
-    private String ADD_VENDOR = "INSERT INTO vendors (vendor_name,user_id VALUES (?, ?)";
-    private String UPDATE_VENDOR = "UPDATE vendors SET vendor_name = ?, user_id = ? WHERE id = ?";
-    private String DELETE_VENDOR = "DELETE FROM vendors WHERE id = ?";
-    private String GET_VENDORS_BY_NAME = "SELECT * FROM vendors WHERE vendor_name LIKE ?";
+    private String GET_ALL_VENDORS = "SELECT * FROM vendor";
+    private String GET_VENDOR_BY_ID = "SELECT * FROM vendor WHERE user_id = ?";
+    private String ADD_VENDOR = "INSERT INTO vendor (vendor_name,user_id VALUES (?, ?)";
+    private String UPDATE_VENDOR = "UPDATE vendor SET vendor_name = ?, user_id = ? WHERE id = ?";
+    private String DELETE_VENDOR = "DELETE FROM vendor WHERE id = ?";
+    private String GET_VENDORS_BY_NAME = "SELECT * FROM vendor WHERE vendor_name LIKE ?";
     private String GET_VENDORS_BY_USER_ID = "SELECT * FROM vendors WHERE user_id = ?";
     private String GET_VENDORS_BY_PRODUCT_ID = "SELECT * FROM vendors WHERE product_id = ?";
     private String GET_VENDORS_BY_CATEGORY_ID = "SELECT * FROM vendors WHERE category_id = ?";

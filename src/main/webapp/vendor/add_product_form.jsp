@@ -60,7 +60,7 @@
 
 <div class="container-add-form">
     <h1>Add Lipstick</h1>
-    <form class="add-product-form" action="#" method="post">
+    <form class="add-product-form" action="vendor?action=add" method="post">
         <div class="add-form-control">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" class="form-input" required>
@@ -81,9 +81,9 @@
 
             <label for="color">Color:</label>
             <select name="" id="color">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
             </select>
         </div>
 
@@ -94,8 +94,9 @@
         </div>
 
         <div class="add-form-control">
-            <label for="image">Image URL:</label>
-            <input type="url" id="image" name="image" class="form-input" required>
+            <label for="image">Image </label>
+<%--            <input type="url" id="image" name="image" class="form-input" required>--%>
+            <input type="file" name="image" id="image" class="form-input"  required><br>
         </div>
 
         <button type="submit" class="submit-button">Add Product</button>

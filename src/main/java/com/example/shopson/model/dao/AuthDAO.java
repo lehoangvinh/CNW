@@ -9,8 +9,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class AuthDAO {
-    private String LOGIN_QUERY = "SELECT * FROM users WHERE username = ? AND password = ?";
-    private String REGISTER_QUERY = "INSERT INTO users (username, password, fullname, phone_number, role_id) VALUES (?, ?, ?, ?, ?)";
+    private String LOGIN_QUERY = "SELECT * FROM user WHERE username = ? AND password = ?";
+    private String REGISTER_QUERY = "INSERT INTO user (username, password, fullname, phone_number, role_id) VALUES (?, ?, ?, ?, ?)";
 
     private String GET_ROLE_BY_USERNAME = "SELECT role_id FROM user WHERE username = ?";
     public AuthHelper login(String username, String password) {
