@@ -1,6 +1,7 @@
 package com.example.shopson.model.dao;
 
 import com.example.shopson.model.bean.Product;
+import com.example.shopson.model.helper.ProductHelper;
 import com.example.shopson.utils.DButils;
 
 import java.sql.Connection;
@@ -12,7 +13,9 @@ import java.util.List;
 
 public class ProductDAO {
     private String ADD_PRODUCT = "INSERT INTO product (product_name, price, description, vendor_id, image, category_id) VALUES (?, ?, ?, ?, ?, ?)";
-    private String GET_ALL_PRODUCTS = "SELECT * FROM product";
+    private String GET_ALL_PRODUCTS = "SELECT p.product_name,p.price, p.description, p.vendor_name, p.image, c.category_name" +
+            "FROM product p INNER JOIN vendor v ON p.vendor_id = v.id " +
+            "INNER JOIN category c ON p.category_id = c.id";
     private String GET_PRODUCT_BY_ID = "SELECT * FROM product WHERE id = ?";
     private String UPDATE_PRODUCT = "UPDATE product SET name = ?, price = ?, description = ?, vendor_id = ?, image = ?, category_id = ? WHERE id = ?";
     private String DELETE_PRODUCT = "DELETE FROM product WHERE id = ?";
@@ -21,20 +24,21 @@ public class ProductDAO {
     private String GET_PRODUCTS_BETWEEN_PRICE = "SELECT * FROM product WHERE price BETWEEN ? AND ?";
     private String GET_PRODUCTS_BY_CATEGORY = "SELECT * FROM product WHERE category_id = ?";
 
-    public List<Product> getAllProduct() {
+    public List<ProductHelper> getAllProduct() {
         try (Connection connection = DButils.getConnection()) {
             PreparedStatement preparedStatement = connection.prepareStatement(GET_ALL_PRODUCTS);
             ResultSet resultSet = preparedStatement.executeQuery();
-            List<Product> products = new ArrayList<>();
+            List<ProductHelper> products = new ArrayList<>();
             while (resultSet.next()) {
-                Product product = new Product(
-                        resultSet.getInt("id"),
-                        resultSet.getString("name"),
-                        resultSet.getInt("price"),
+                ProductHelper product = new ProductHelper(
+                        resultSet.getString("product_name"),
+                        resultSet.getFloat("price"),
                         resultSet.getString("description"),
                         resultSet.getInt("vendor_id"),
-                        resultSet.getString("image"),
-                        resultSet.getInt("category_id")
+                        resultSet.getString("vendor_name"),
+                        resultSet.getString("category_name"),
+                        resultSet.getInt("category_id"),
+                        resultSet.getString("image")
                 );
                 products.add(product);
             }

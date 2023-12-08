@@ -1,6 +1,6 @@
 package com.example.shopson.model.dao;
 
-import com.example.shopson.model.bean.AuthHelper;
+import com.example.shopson.model.helper.AuthHelper;
 import com.example.shopson.utils.DButils;
 
 import java.sql.Connection;

@@ -2,6 +2,7 @@ package com.example.shopson.model.bo;
 
 import com.example.shopson.model.bean.Product;
 import com.example.shopson.model.dao.ProductDAO;
+import com.example.shopson.model.helper.ProductHelper;
 
 import java.util.List;
 
@@ -18,7 +19,7 @@ public class ProductBO {
     public boolean deleteProduct(int id) {
         return productDAO.deleteProduct(id);
     }
-    public List<Product> getAllProduct() {
+    public List<ProductHelper> getAllProducts() {
         return productDAO.getAllProduct();
     }
     public Product getProductById(int id) {

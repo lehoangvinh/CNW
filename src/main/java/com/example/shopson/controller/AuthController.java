@@ -1,8 +1,7 @@
 package com.example.shopson.controller;
 
-import com.example.shopson.model.bean.AuthHelper;
+import com.example.shopson.model.helper.AuthHelper;
 import com.example.shopson.model.bo.AuthBO;
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

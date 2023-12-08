@@ -1,4 +1,4 @@
-package com.example.shopson.model.bean;
+package com.example.shopson.model.helper;
 
 public class AuthHelper {
     private String username;

@@ -1,5 +1,6 @@
 package com.example.shopson.model.bo;
 
+import com.example.shopson.model.bean.User;
 import com.example.shopson.model.bean.Vendor;
 import com.example.shopson.model.dao.VendorDAO;
 
@@ -10,7 +11,7 @@ public class VendorBO {
 
     public VendorBO() {
     }
-    public List<Vendor> getAllVendors() {
+    public List<User> getAllVendors() {
         return vendorDAO.getAllVendors();
     }
     public Vendor getVendorById(int id) {

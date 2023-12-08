@@ -25,6 +25,8 @@ public class User {
         this.role_id = role_id;
     }
 
+
+
     public int getId() {
         return id;
     }
