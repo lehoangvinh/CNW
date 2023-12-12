@@ -15,21 +15,21 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../staticfiles/css/style.css" type="text/css">
 </head>
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
+    <!-- <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div> -->
 
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>

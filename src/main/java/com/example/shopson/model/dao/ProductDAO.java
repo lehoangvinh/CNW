@@ -29,7 +29,7 @@ public class ProductDAO {
             while (resultSet.next()) {
                 Product product = new Product(
                         resultSet.getInt("id"),
-                        resultSet.getString("name"),
+                        resultSet.getString("product_name"),
                         resultSet.getInt("price"),
                         resultSet.getString("description"),
                         resultSet.getInt("vendor_id"),

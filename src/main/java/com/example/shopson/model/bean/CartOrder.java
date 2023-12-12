@@ -1,25 +1,30 @@
 package com.example.shopson.model.bean;
 
-public class CartOrder {
-        public int id;
-        public int quantity;
-        public  float total_price;
-        public boolean paid_status;
-        public  int user_id;
+import java.time.LocalDate;
 
-    public CartOrder(int id, int quantity, float total_price, boolean paid_status, int user_id) {
+public class CartOrder {
+    public int id;
+    public LocalDate order_date;
+    public float total_price;
+    public boolean paid_status;
+    public int user_id;
+
+    public CartOrder(int id, LocalDate order_date, float total_price, boolean paid_status, int user_id) {
         this.id = id;
-        this.quantity = quantity;
+        this.order_date = order_date;
         this.total_price = total_price;
         this.paid_status = paid_status;
         this.user_id = user_id;
     }
-    public CartOrder( int quantity, float total_price, boolean paid_status, int user_id) {
-        this.quantity = quantity;
+
+    public CartOrder(LocalDate order_date, float total_price, boolean paid_status, int user_id) {
+        this.order_date = order_date;
         this.total_price = total_price;
         this.paid_status = paid_status;
         this.user_id = user_id;
     }
+
+    // Các phương thức getter và setter...
 
     public int getId() {
         return id;
@@ -29,12 +34,12 @@ public class CartOrder {
         this.id = id;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public LocalDate getOrder_date() {
+        return order_date;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setOrder_date(LocalDate order_date) {
+        this.order_date = order_date;
     }
 
     public float getTotal_price() {

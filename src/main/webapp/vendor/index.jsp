@@ -10,18 +10,18 @@
     <title>DASHGUM - FREE Bootstrap Admin Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../staticfiles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/staticfiles/css/bootstrap.min.css" rel="stylesheet">
     <!--external css-->
-    <link href="../staticfiles/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../staticfiles/css/zabuto_calendar.css">
-    <link rel="stylesheet" type="text/css" href="../staticfiles/js/gritter/css/jquery.gritter.css" />
-    <link rel="stylesheet" type="text/css" href="../staticfiles/lineicons/style.css">
+    <link href="/staticfiles/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/staticfiles/css/zabuto_calendar.css">
+    <link rel="stylesheet" type="text/css" href="/staticfiles/js/gritter/css/jquery.gritter.css" />
+    <link rel="stylesheet" type="text/css" href="/staticfiles/lineicons/style.css">
     
     <!-- Custom styles for this template -->
-    <link href="../staticfiles/css/style_admin.css" rel="stylesheet">
-    <link href="../staticfiles/css/style-responsive.css" rel="stylesheet">
+    <link href="/staticfiles/css/style_admin.css" rel="stylesheet">
+    <link href="/staticfiles/css/style-responsive.css" rel="stylesheet">
 
-    <script src="../staticfiles/js/chart-master/Chart.js"></script>
+    <script src="/staticfiles/js/chart-master/Chart.js"></script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
