@@ -11,7 +11,6 @@ import java.sql.SQLException;
 public class AuthDAO {
     private String LOGIN_QUERY = "SELECT * FROM user WHERE username = ? AND password = ?";
     private String REGISTER_QUERY = "INSERT INTO user (username, password, fullname, phone_number, role_id) VALUES (?, ?, ?, ?, ?)";
-
     private String GET_ROLE_BY_USERNAME = "SELECT role_id FROM user WHERE username = ?";
     public AuthHelper login(String username, String password) {
         try(Connection connection = DButils.getConnection()) {
@@ -20,7 +19,7 @@ public class AuthDAO {
             preparedStatement.setString(2, password);
             ResultSet resultSet = preparedStatement.executeQuery();
             if(resultSet.next()) {
-                return new AuthHelper( resultSet.getString("username"),resultSet.getInt("role_id"));
+                return new AuthHelper( resultSet.getString("username"),resultSet.getInt("role_id"), resultSet.getInt("id"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -40,4 +39,5 @@ public class AuthDAO {
         }
         return -1;
     }
+
 }

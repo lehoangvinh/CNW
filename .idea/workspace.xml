@@ -11,36 +11,262 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03463e4f-0c01-40ab-a605-6f6ee9d2bfc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/ProductHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/adminContent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/AddProductByVendorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/DeleteProductByVendorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/ProductsVendorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/UpdateProductByVendor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/CartOrderBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/CartOrderItemBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/CategoryBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/UserBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/CartOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/CartOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/ProductsVendor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/vendorContent.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/AuthHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/AuthHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/CartOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/CartOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/AuthBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/AuthBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/ProductBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/ProductBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/VendorBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/bo/VendorBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/AuthDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/AuthDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/ProductDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/VendorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/dao/VendorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/basic_table.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/blank.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/buttons.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/calendar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/chartjs.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/form_component.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/gallery.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/general.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/AuthHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/AuthHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/ProductHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopson/model/helper/ProductHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/adminContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/adminContent.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lock_screen.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/morris.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/panels.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/responsive_table.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/todo_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/blog-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/cart-order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/checkout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/product-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/shop-cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer/shop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/add-product-form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/cart-order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/elegant-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/slicknav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/style_admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/table-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/to-do.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/css/zabuto_calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/ElegantIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/ElegantIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/ElegantIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/ElegantIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/blog-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/checkbox-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/friends/fr-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/instagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/login-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/lorde.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/portfolio/port06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/profile-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/profile-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/radio-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-danro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-divya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-sam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-sherman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/ui-zac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/weather.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/admin/zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/banner/banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/banner/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/banner/banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/details/blog-details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/details/comment-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/details/comment-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/details/comment-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/sidebar/fp-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/sidebar/fp-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/blog/sidebar/fp-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/categories/category-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/categories/category-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/categories/category-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/categories/category-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/categories/category-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/discount.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/instagram/insta-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/instagram/insta-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/instagram/insta-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/instagram/insta-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/instagram/insta-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/instagram/insta-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/payment/payment-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/payment/payment-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/payment/payment-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/payment/payment-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/payment/payment-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/details/thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/related/rp-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/related/rp-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/related/rp-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/product/related/rp-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop-cart/cp-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop-cart/cp-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop-cart/cp-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop-cart/cp-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/shop/shop-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/bs-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/bs-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/bs-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/f-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/f-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/f-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/ht-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/ht-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/img/trend/ht-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap-inputmask/bootstrap-inputmask.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/calendar-conf-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/chart-master/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/chartjs-conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/common-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/easy-pie-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fancybox/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fancybox/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/form-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fullcalendar/bootstrap-fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter-conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/css/jquery.gritter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/css/jquery.gritter0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/gritter-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/gritter-long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/gritter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/images/ie-spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/gritter/js/jquery.gritter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-easy-pie-chart/jquery.easy-pie-chart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-easy-pie-chart/jquery.easy-pie-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.backstretch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.dcjqaccordion.2.7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.nicescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.nicescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.scrollTo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.slicknav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/jquery.ui.touch-punch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/morris-conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/sparkline-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/tasks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/js/zabuto_calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_blog-details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_blog-sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_categories.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_checkout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_home-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_product-details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_product.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_shop-cart.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_shop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/_variable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/staticfiles/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/add_product_form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vendor/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,29 +455,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/servlet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/HK1_P3/LTM/CNW/src/main/webapp/upload&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\webapp" />
-      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\java\com\example\shopson" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/vendor" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/staticfiles/css" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
+      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\webapp\staticfiles\img\product" />
+      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\java\com\example\shopson\controller" />
+      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\webapp\staticfiles\css" />
+      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\webapp\vendor" />
+      <recent name="D:\WorkSpace\HK1_P3\LTM\CNW\src\main\webapp\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/vendor" />
@@ -260,12 +487,15 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/staticfiles/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.shopson.model.helper" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="CNW:war">
           <settings>
@@ -357,18 +587,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -385,7 +603,17 @@
       <workItem from="1701872194678" duration="3845000" />
       <workItem from="1701877545131" duration="246000" />
       <workItem from="1701913635615" duration="19040000" />
-      <workItem from="1702041177329" duration="3232000" />
+      <workItem from="1702041177329" duration="19270000" />
+      <workItem from="1702098777135" duration="4430000" />
+      <workItem from="1702177883993" duration="6842000" />
+      <workItem from="1702218015878" duration="10288000" />
+      <workItem from="1702266118594" duration="317000" />
+      <workItem from="1702300815965" duration="2513000" />
+      <workItem from="1702345250229" duration="48425000" />
+      <workItem from="1702447290194" duration="208000" />
+      <workItem from="1702467695916" duration="1035000" />
+      <workItem from="1702474243880" duration="9000" />
+      <workItem from="1702474257314" duration="1891000" />
     </task>
     <servers />
   </component>

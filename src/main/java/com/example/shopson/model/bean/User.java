@@ -6,6 +6,7 @@ public class User {
     private String password;
     private String fullname;
     private String phone_number;
+    private String address;
     private int role_id;
 
     public User(String username, String password, String name, String phone_number, int role_id) {
@@ -25,7 +26,24 @@ public class User {
         this.role_id = role_id;
     }
 
+    public User(String username, String password, String fullname, String phone_number, String address, int role_id) {
+        this.username = username;
+        this.password = password;
+        this.fullname = fullname;
+        this.phone_number = phone_number;
+        this.address = address;
+        this.role_id = role_id;
+    }
 
+    public User(int id, String username, String password, String fullname, String phone_number, String address, int role_id) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.fullname = fullname;
+        this.phone_number = phone_number;
+        this.address = address;
+        this.role_id = role_id;
+    }
 
     public int getId() {
         return id;
@@ -73,5 +91,13 @@ public class User {
 
     public void setRole_id(int role_id) {
         this.role_id = role_id;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

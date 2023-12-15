@@ -13,8 +13,8 @@ public class ProductBO {
         return productDAO.addProduct(new Product(name, price, description, vendor_id, image, category_id));
     }
 
-    public boolean updateProduct(int id, String name, int price, String description, int vendor_id, String image, int  category_id) {
-        return productDAO.updateProduct(id, new Product( name, price, description, vendor_id, image, category_id));
+    public boolean updateProduct(int id, String product_name, float price, String description, int vendor_id, String image, int  category_id) {
+        return productDAO.updateProduct(id, new Product( product_name, price, description, vendor_id, image, category_id));
     }
     public boolean deleteProduct(int id) {
         return productDAO.deleteProduct(id);
@@ -22,7 +22,7 @@ public class ProductBO {
     public List<ProductHelper> getAllProducts() {
         return productDAO.getAllProduct();
     }
-    public Product getProductById(int id) {
+    public ProductHelper getProductById(int id) {
         return productDAO.getProductById(id);
     }
     public List<Product> getProductsByVendorId(int vendor_id) {

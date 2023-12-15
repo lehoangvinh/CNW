@@ -1,6 +1,7 @@
 package com.example.shopson.model.helper;
 
 public class ProductHelper {
+    private int id;
     private String product_name;
     private float price;
     private String description;
@@ -9,6 +10,18 @@ public class ProductHelper {
     private String category_name;
     private int category_id;
     private String image;
+
+    public ProductHelper(int id, String product_name, float price, String description, int vendor_id, String vendor_name, String category_name, int category_id, String image) {
+        this.id = id;
+        this.product_name = product_name;
+        this.price = price;
+        this.description = description;
+        this.vendor_id = vendor_id;
+        this.vendor_name = vendor_name;
+        this.category_name = category_name;
+        this.category_id = category_id;
+        this.image = image;
+    }
 
     public ProductHelper(String product_name, float price, String description, int vendor_id, String vendor_name, String category_name, int category_id, String image) {
         this.product_name = product_name;
@@ -19,6 +32,14 @@ public class ProductHelper {
         this.category_name = category_name;
         this.category_id = category_id;
         this.image = image;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getProduct_name() {

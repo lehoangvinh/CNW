@@ -1,23 +1,19 @@
 package com.example.shopson.model.bean;
 
 public class Category {
-    private String id;
+    private int id;
     private String category_name;
 
-    public Category(String id, String category_name) {
+    public Category(int id, String category_name) {
         this.id = id;
         this.category_name = category_name;
     }
 
-    public Category(String category_name) {
-        this.category_name = category_name;
-    }
-
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

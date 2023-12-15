@@ -13,14 +13,16 @@ import java.util.List;
 
 public class ProductDAO {
     private String ADD_PRODUCT = "INSERT INTO product (product_name, price, description, vendor_id, image, category_id) VALUES (?, ?, ?, ?, ?, ?)";
-    private String GET_ALL_PRODUCTS = "SELECT p.product_name,p.price, p.description, p.vendor_name, p.image, c.category_name" +
+    private String GET_ALL_PRODUCTS = "SELECT p.id, p.product_name,p.price, p.description,p.vendor_id, v.vendor_name, p.image, c.category_name, P.category_id " +
             "FROM product p INNER JOIN vendor v ON p.vendor_id = v.id " +
             "INNER JOIN category c ON p.category_id = c.id";
-    private String GET_PRODUCT_BY_ID = "SELECT * FROM product WHERE id = ?";
-    private String UPDATE_PRODUCT = "UPDATE product SET name = ?, price = ?, description = ?, vendor_id = ?, image = ?, category_id = ? WHERE id = ?";
+    private String GET_PRODUCT_BY_ID = "SELECT p.id, p.product_name,p.price, p.description,p.vendor_id, v.vendor_name, p.image, c.category_name, P.category_id " +
+            "FROM product p INNER JOIN vendor v ON p.vendor_id = v.id " +
+            "INNER JOIN category c ON p.category_id = c.id  WHERE p.id = ?";
+    private String UPDATE_PRODUCT = "UPDATE product SET product_name = ?, price = ?, description = ?, vendor_id = ?, image = ?, category_id = ? WHERE id = ?";
     private String DELETE_PRODUCT = "DELETE FROM product WHERE id = ?";
     private String GET_PRODUCTS_BY_VENDOR_ID = "SELECT * FROM product WHERE vendor_id = ?";
-    private String GET_PRODUCTS_BY_NAME = "SELECT * FROM product WHERE name LIKE ?";
+    private String GET_PRODUCTS_BY_NAME = "SELECT * FROM product WHERE product_name LIKE ?";
     private String GET_PRODUCTS_BETWEEN_PRICE = "SELECT * FROM product WHERE price BETWEEN ? AND ?";
     private String GET_PRODUCTS_BY_CATEGORY = "SELECT * FROM product WHERE category_id = ?";
 
@@ -31,6 +33,7 @@ public class ProductDAO {
             List<ProductHelper> products = new ArrayList<>();
             while (resultSet.next()) {
                 ProductHelper product = new ProductHelper(
+                        resultSet.getInt("id"),
                         resultSet.getString("product_name"),
                         resultSet.getFloat("price"),
                         resultSet.getString("description"),
@@ -49,20 +52,22 @@ public class ProductDAO {
         return null;
     }
 
-    public Product getProductById(int id) {
+    public ProductHelper getProductById(int id) {
         try (Connection connection = DButils.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(GET_PRODUCT_BY_ID);) {
             preparedStatement.setInt(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
-                Product product = new Product(
+                ProductHelper product = new ProductHelper(
                         resultSet.getInt("id"),
-                        resultSet.getString("name"),
-                        resultSet.getInt("price"),
+                        resultSet.getString("product_name"),
+                        resultSet.getFloat("price"),
                         resultSet.getString("description"),
                         resultSet.getInt("vendor_id"),
-                        resultSet.getString("image"),
-                        resultSet.getInt("category_id")
+                        resultSet.getString("vendor_name"),
+                        resultSet.getString("category_name"),
+                        resultSet.getInt("category_id"),
+                        resultSet.getString("image")
                 );
                 return product;
             }

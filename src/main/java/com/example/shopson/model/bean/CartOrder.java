@@ -5,8 +5,12 @@ public class CartOrder {
         public int quantity;
         public  float total_price;
         public boolean paid_status;
+
         public  int user_id;
 
+    public CartOrder() {
+
+    }
     public CartOrder(int id, int quantity, float total_price, boolean paid_status, int user_id) {
         this.id = id;
         this.quantity = quantity;
@@ -14,12 +18,14 @@ public class CartOrder {
         this.paid_status = paid_status;
         this.user_id = user_id;
     }
-    public CartOrder( int quantity, float total_price, boolean paid_status, int user_id) {
-        this.quantity = quantity;
+    public CartOrder( int id, float total_price, boolean paid_status, int user_id) {
+        this.id = id;
         this.total_price = total_price;
         this.paid_status = paid_status;
         this.user_id = user_id;
     }
+
+
 
     public int getId() {
         return id;
